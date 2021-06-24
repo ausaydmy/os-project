@@ -9,20 +9,17 @@ This repository contains the source files and the information required to compil
 The program is written in C++, any C++ compiler can complie and successfully build the program to be run. 
 
 Recommended is GCC from the GNU Project. 
-GCC is only available on linux distributions, however it can be installed on Windows using MinGW or Cygwin projects.
-To compile with GCC, run the following command on the CLI:
+GCC is only available on linux distributions, however it can be installed on Windows using MinGW or Cygwin projects. To compile with GCC, run the following command on the CLI:
 ```bash 
 gcc banker.cpp -o banker
 ```
 
-Otherwise on Windows, one can download Microsoft Visual C++ which comes with a C++ compiler.
-To compile using Visual C++ compiler CL, run the following in the command prompt:
+Otherwise on Windows, one can download Microsoft Visual C++ which comes with a C++ compiler. To compile using Visual C++ compiler CL, run the following in the command prompt:
 ```cmd
 cl banker.cpp
 ```
 
-On MacOS, XCode can compile C++ or Clang C++ can be installed 
-To compile with Clang, run the following command in the terminal:
+On MacOS, XCode can compile C++ or Clang C++ can be installed. To compile with Clang, run the following command in the terminal:
 ```
 clang banker.cpp
 ```
